@@ -660,23 +660,11 @@ background-color: rgba(211, 211, 255, 1);
         background-color: rgba(211, 211, 255, 0.144);
     }
     .info1 {
-        font-size: 1rem;
-        padding-top: 1%;
-        padding-bottom: 2%;
-        line-height: 220%;
-        text-align: center;
-        border-radius: 10px;
-        height: auto;
-        width: 25%;
-        position: fixed;
-        margin-bottom: 10%;
-    
-        bottom: 0;
-        background-color: white;
+        font-size:0;
     }
     
     .answear {
-        font-size: 1.4rem;
+        font-size: 0;
         font-weight: 800;
         text-shadow: 0px 0px 70px rgb(47, 44, 201);
     }
