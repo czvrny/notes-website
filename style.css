@@ -360,7 +360,7 @@ background-color: rgba(211, 211, 255, 1);
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 0;
+        height: 50%;
         margin: 0;
         background-color:rgba(211, 211, 255, 0.24) ;
     }
@@ -368,7 +368,7 @@ background-color: rgba(211, 211, 255, 1);
     .container {
         text-align: center;
         width: 80%;
-        height: 20vh;
+        height: 40%;
         border-radius: 15px;
         background-color: rgb(255, 255, 255);
         color: black;
