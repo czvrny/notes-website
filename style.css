@@ -360,15 +360,16 @@ background-color: rgba(211, 211, 255, 1);
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 70vh;
+        height: 50vh;
+        width: 30vh;
         margin: 0;
         background-color:rgba(211, 211, 255, 0.24) ;
     }
     
     .container {
         text-align: center;
-        width: 25%;
-        height: 80%;
+        width: 25vh;
+        height: 30vh;
         border-radius: 15px;
         background-color: rgb(255, 255, 255);
         color: black;
