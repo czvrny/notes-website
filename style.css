@@ -345,14 +345,14 @@ background-color: rgba(211, 211, 255, 1);
   }
   
 /* Styl dla urządzeń o szerokości mniejszej niż 768px (dla przykładu) */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     body {
-      height: 100vh; /* Zwiększa wysokość do 100% widoku na urządzeniach mobilnych */
+      height: 70vh; /* Zwiększa wysokość do 100% widoku na urządzeniach mobilnych */
     }
   
     .container {
-      width: 90%; /* Zwiększa szerokość kontenera na urządzeniach mobilnych */
-      height: 90%; /* Zwiększa wysokość kontenera na urządzeniach mobilnych */
+        width: 25%;
+        height: 80%;
     }
   
     .form__group {
@@ -375,4 +375,4 @@ background-color: rgba(211, 211, 255, 1);
       margin-right: 5%; /* Dodaje prawe wyrównanie na urządzeniach mobilnych */
     }
   }
-  
+ 
