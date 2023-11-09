@@ -360,8 +360,8 @@ background-color: rgba(211, 211, 255, 1);
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 50vh;
-        width: 0;
+        height: 150vh;
+        width: 100vh;
         margin: 0;
         background-color:rgba(211, 211, 255, 0.24) ;
     }
