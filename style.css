@@ -724,7 +724,7 @@ background-color: rgba(211, 211, 255, 1);
         background-color:rgba(211, 211, 255, 0.24) ;
     }
     .dell {
-        font-size: 0;
+        font-size: -30px;
     }
     .container {
        
@@ -1019,7 +1019,6 @@ background-color: rgba(211, 211, 255, 1);
         border-radius: 0;
         margin-left: 0;
         margin-right: 0;
-        background-color: rgba(211, 211, 255, 0.144);
     }
     .info1 {
         font-size:0;
