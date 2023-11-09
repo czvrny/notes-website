@@ -344,5 +344,35 @@ background-color: rgba(211, 211, 255, 1);
     }
   }
   
-
+/* Styl dla urządzeń o szerokości mniejszej niż 768px (dla przykładu) */
+@media (max-width: 768px) {
+    body {
+      height: 100vh; /* Zwiększa wysokość do 100% widoku na urządzeniach mobilnych */
+    }
+  
+    .container {
+      width: 90%; /* Zwiększa szerokość kontenera na urządzeniach mobilnych */
+      height: 90%; /* Zwiększa wysokość kontenera na urządzeniach mobilnych */
+    }
+  
+    .form__group {
+      width: 90%; /* Zwiększa szerokość formularza na urządzeniach mobilnych */
+    }
+  
+    .form__field {
+      width: 100%; /* Zwiększa szerokość pola wejściowego na urządzeniach mobilnych */
+      margin-left: 0; /* Usuwa lewe wyrównanie na urządzeniach mobilnych */
+    }
+  
+    .btn, .btn1 {
+      width: 40%; /* Zmniejsza szerokość przycisków na urządzeniach mobilnych */
+      font-size: 1rem; /* Zmniejsza rozmiar czcionki na urządzeniach mobilnych */
+    }
+  
+    .info, .info1 {
+      width: 90%; /* Zwiększa szerokość informacji na urządzeniach mobilnych */
+      margin-left: 5%; /* Dodaje lewe wyrównanie na urządzeniach mobilnych */
+      margin-right: 5%; /* Dodaje prawe wyrównanie na urządzeniach mobilnych */
+    }
+  }
   
